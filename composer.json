@@ -1,4 +1,21 @@
 {
+    "name": "iarcadia/elo",
+    "description": "A class providing ELO calculations.",
+    "type": "library",
+    "license": "MIT",
+    "version": "1.0.0",
+    "authors": [
+        {
+            "name": "Kevin Bibollet",
+            "email": "bibollet.kevin@gmail.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "iarcadia\\elo\\": "src/"
+        }
+    },
     "require-dev": {
         "symfony/var-dumper": "^5.3"
     }
